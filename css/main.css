@@ -8,7 +8,7 @@
 }
 
 *{
-    box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
     font-family: 'Chakra Petch', sans-serif;
@@ -16,7 +16,7 @@
 body{
     margin: 0;
     padding: 0;
-    position: fixed;
+ position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -74,9 +74,87 @@ header .header-icons-container .icons {
 
     }
 
-    .nav-logo-container p {
-        font-size: 75px;
+    .nav-logo-container span .title {
+        font-size: 45px;
         margin-left: 30px;
         font-weight: bold;
-        color: var(--color5);
+        color: #2976b5;
+        line-height: 35px;
     }
+
+    .nav-logo-container span .sub-title {
+        font-size: 20px;
+        margin-left: 30px;
+        font-weight: 300;
+        color: black;
+    }
+
+    nav .profile-link{
+        margin-right: 60px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+
+    main{
+     
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        height: 100%;
+        margin-top: 60px;
+        background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/48230hd.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    main .section-menu-main{
+        display: grid;
+        grid-column: 2;
+        justify-items: center;
+        height: 350px;
+        margin-top: 60px;
+        
+    }
+
+    main .home-main-text{
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        text-align: center;
+        color: white;
+
+    }
+
+    
+  
+    .home-main-button {
+        width: 150px;
+        height: 60px;
+        background-color: #2976b5;
+        display: grid;
+        align-items: center;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0px 4px 18px 0px;
+    }
+
+    .home-main-button a {
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+        font-family: 'Chakra Petch', sans-serif;
+
+    }
+
+    .home-main-button a:hover{
+        color: black;
+    }
+    .section-menu-main button:hover {
+        background-color: #56b3ff;
+       
+    }
+
+    
+
